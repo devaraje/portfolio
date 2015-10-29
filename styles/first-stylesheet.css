@@ -1,0 +1,57 @@
+h1 {
+  color: palevioletred;
+}
+
+h1:hover {
+  color: cornflowerblue;
+}
+
+p {
+  color: grey;
+}
+
+footer a {
+  color: rebeccapurple;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.highlight{
+  color: orchid;
+}
+
+body.highlight{
+  background-color: beige;
+}
+
+#homepage{
+  width: 95%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 25px
+}
+
+header img {
+  width: 33%;
+  border: 2px;
+}
+
+a::first-letter {
+  font-size: 1.5em;
+}
+
+.center{
+  text-align: center
+}
+
+nav a {
+  text-decoration: underline;
+}
