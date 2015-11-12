@@ -1,57 +1,123 @@
-h1 {
-  color: palevioletred;
+* { box-sizing: border-box;}
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(189,168,193);
 }
 
 h1:hover {
-  color: cornflowerblue;
+  color: rgb(252,202,255);
 }
 
-p {
-  color: grey;
+header h1 { 
+  color: rgb(63,51,64);
+  font-family: 'Poiret One', cursive;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
 }
 
-footer a {
-  color: rebeccapurple;
+header nav {
+  float: left;
+  list-style: none;
+  background-color: rgb(126,101,127);
+  color: white;
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
-a:visited {
+header nav a {
+  padding-top: .2rem;
+  padding-left: 2.86rem;
+  padding-right: 2.86rem;
+  padding-bottom: .2rem;
+  width: 100%;
+  margin: auto;
+  color: white;
   text-decoration: none;
 }
 
-header {
+div .main{
+  height: 85%;
+  clear: both;
+}
+
+.article {
+  float: left;
+  background-color: thistle;
+  margin: auto;
   text-align: center;
   width: 75%;
+  min-height: 100%;
+  padding-bottom: 4.25rem;
+  padding-top: 2rem;
+}
+
+.article li {
+  float: left;
+  padding-bottom: 1rem;
   margin: auto;
+  color: white;
+  list-style: none;
+  text-decoration: none;
 }
 
-.highlight{
-  color: orchid;
+.article li img {
+  width: 10rem;
+  padding: 1rem;
 }
 
-body.highlight{
-  background-color: beige;
+.project-blog .project-article .project-html .project-css .project-portfolio {
+  float: left;
 }
 
-#homepage{
-  width: 95%;
+.aside { 
+  background-color: gainsboro;
+  float: right;
+  width: 25%;
+  min-height: 100%;
   margin: auto;
-  border: 2px solid black;
-  border-radius: 25px
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 75%;
 }
 
-header img {
-  width: 33%;
-  border: 2px;
+.aside h3{
+  clear: both;
+  font-size: 1.5rem;
 }
 
-a::first-letter {
-  font-size: 1.5em;
+.aside li {
+  list-style: none;
+  /*font-family: 'Poiret One', cursive;*/
+  padding: .2rem;
+  margin: auto;
+  align-content: center;
+}
+
+.aside img {
+  width: 5rem;
+  padding: .5rem;
+  margin: auto;
+  text-align: center;
+}
+  
+footer { 
+  clear: both;
+  text-align: center;
+  padding: 1.25rem;
+  background-color: rgb(126,101,127);
+}
+
+footer a {
+  color: gainsboro;
 }
 
 .center{
   text-align: center
-}
-
-nav a {
-  text-decoration: underline;
 }
