@@ -121,3 +121,9 @@ footer a {
 .center{
   text-align: center
 }
+
+.offscreen:focus {
+  position:static;
+  height:auto;
+  width:auto;
+}
